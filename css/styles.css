@@ -536,7 +536,7 @@ p {
   --color-lin1: #43b5a0;
   --color-lin2: #f68741;
   --color-border: #491d88;
-  --color-text-shdow: luckyPoint;
+  --color-text-shdow: #13185d;
 }
 
 .dark {
@@ -545,6 +545,7 @@ p {
   --color-lin1: #ef0195;
   --color-lin2: #10133a;
   --color-border: #f68741;
+  --color-text-shdow: #f68741;
 }
 
 body {

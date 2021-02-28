@@ -4,7 +4,7 @@
     --color-lin1: #{$keppel};
     --color-lin2: #{$jaffa};
     --color-border: #{$daisyBush};
-    --color-text-shdow: #{luckyPoint};
+    --color-text-shdow: #{$luckyPoint};
     
 }
 
@@ -15,6 +15,7 @@
     --color-lin1: #{$hollywoodCerise};
     --color-lin2: #{$haiti};
     --color-border: #{$jaffa};
+    --color-text-shdow: #{$jaffa};
     
 }
 
@@ -36,6 +37,7 @@ main {
 p {
    background: linear-gradient( var( --color-lin1), var( --color-lin2));
    @include text-shdow();
+   
 
 
 }
