@@ -1,5 +1,14 @@
 
+body {
+    background-color: var(--color-body-background);
+    @include text($base__font-size, ($base__line/$base__font-size ));
+}
 
+header {
+    background-color: var(--color-text);
+    color: var(--color-body-background);
+    margin-bottom: em(20px);
+}
 
 
 main {
@@ -9,10 +18,14 @@ main {
     max-width: em(750px);
     margin: em(50px) auto em(20px);
     text-align: center;
+    border: solid 3px var(--color-border);
     
 }
 
-
-header {
-    margin-bottom: em(20px);
-}
+p {
+    background: linear-gradient( var( --color-lin1), var( --color-lin2));
+    @include text-shdow();
+    
+ 
+ 
+ }

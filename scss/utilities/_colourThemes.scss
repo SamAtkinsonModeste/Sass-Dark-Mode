@@ -20,24 +20,6 @@
 }
 
 
-body {
-    background-color: var(--color-body-background);
-    @include text($base__font-size, ($base__line/$base__font-size ));
-}
-
-header {
-    background-color: var(--color-text);
-    color: var(--color-body-background);
-}
-main {
-    border: solid 3px var(--color-border);
-}
 
 
-p {
-   background: linear-gradient( var( --color-lin1), var( --color-lin2));
-   @include text-shdow();
-   
 
-
-}
