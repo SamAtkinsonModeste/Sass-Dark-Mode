@@ -4,6 +4,7 @@
     --color-lin1: #{$keppel};
     --color-lin2: #{$jaffa};
     --color-border: #{$daisyBush};
+    --color-text-shdow: #{luckyPoint};
     
 }
 
@@ -33,7 +34,8 @@ main {
 
 
 p {
-   background: linear-gradient( var( --color-lin1), var( --color-lin2))
+   background: linear-gradient( var( --color-lin1), var( --color-lin2));
+   @include text-shdow();
 
 
 }

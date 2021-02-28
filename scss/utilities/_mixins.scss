@@ -16,9 +16,9 @@
 //SHADOWS
 
 //Text Shadow
-// @mixin text-shdow($hr: 0.5px, $vrt:0.5px, $blur:null, $col:$black) {
-// 	text-shadow: $hr $vrt $blur $col;
-// }
+@mixin text-shdow($hr: 0.5px, $vrt:0.5px, $blur:null, $col:var(--color-text-shdow)) {
+	text-shadow: $hr $vrt $blur $col;
+}
 
 
 
