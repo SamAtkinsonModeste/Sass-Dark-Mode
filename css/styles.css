@@ -568,11 +568,6 @@ main {
   border: solid 3px var(--color-border);
 }
 
-p {
-  background: linear-gradient(var(--color-lin1), var(--color-lin2));
-  text-shadow: 0.5px 0.5px var(--color-text-shdow);
-}
-
 body {
   font-family: "Jura", Helvetica, Arial, "sans-serif";
   font-size: 16px;
