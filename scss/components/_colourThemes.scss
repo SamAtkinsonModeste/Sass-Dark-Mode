@@ -1,0 +1,39 @@
+:root {
+    --color-body-background: #{$mystic};
+    --color-text: #{$haiti};
+    --color-lin1: #{$keppel};
+    --color-lin2: #{$jaffa};
+    --color-border: #{$daisyBush};
+    
+}
+
+
+.dark {
+    --color-body-background: #{$haiti} ;
+    --color-text:#{$mystic} ;
+    --color-lin1: #{$hollywoodCerise};
+    --color-lin2: #{$haiti};
+    --color-border: #{$jaffa};
+    
+}
+
+
+body {
+    background-color: var(--color-body-background);
+    @include text($base__font-size, ($base__line/$base__font-size ));
+}
+
+header {
+    background-color: var(--color-text);
+    color: var(--color-body-background);
+}
+main {
+    border: solid 3px var(--color-border);
+}
+
+
+p {
+   background: linear-gradient( var( --color-lin1), var( --color-lin2))
+
+
+}

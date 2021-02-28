@@ -1,0 +1,125 @@
+// ==========================================================================
+// Mixins
+//==========================================================================
+//Text Properties
+@mixin text($size, $l-height: null, $weight: null, $color:null) {
+	font-size: $size;
+	line-height: $l-height;
+	font-weight: $weight;
+	color: $color;
+}
+
+
+   	
+
+
+//SHADOWS
+
+//Text Shadow
+// @mixin text-shdow($hr: 0.5px, $vrt:0.5px, $blur:null, $col:$black) {
+// 	text-shadow: $hr $vrt $blur $col;
+// }
+
+
+
+//Box Shadow
+// @mixin box-shdow($in:null, $hr:0, $vrt:0, $blur:15px, $sphd:null, $col:$black) {
+// 	         box-shadow: $in $hr $vrt $blur $sphd $col;
+// 	}
+
+
+//Gradient
+
+// @mixin grad($dir:0deg, $color1, $color2, $color3:null, $trans:null) {
+//     background: -webkit-linear-gradient($dir, $color1, $color2);
+// 	background: -moz-linear-gradient($dir, $color1, $color2);
+// 	background: -o-linear-gradient($dir, $color1, $color2);
+// 	background: linear-gradient($dir, $color1, $color2);
+
+// }
+
+//Border 
+// @mixin br-default ($pix: 1px, $styl: solid, $colu:null) {
+// 	border: $pix $styl $colu;
+// }
+
+
+//SVG Stroke and Stroke Width
+// @mixin svg-path ($strk: $color-primary, $strk-wid: null) {
+// 	stroke: $strk;
+// 	stroke-width: $strk-wid;
+// 	@content;
+// }
+
+
+//Background Images
+// @mixin bg-img(  $img,
+// 			    $repeat: no-repeat,
+// 				$attach:null, 
+// 				$posit: null, 
+// 				$size: cover) {
+//   background-image:url("#{$path-svg}/#{$img}");
+//   background-repeat: $repeat;
+//   background-attachment: $attach;
+//   background-position: $posit;
+//   background-size: $size;
+
+
+// }
+
+//Background Colours and Border Radius
+// @mixin grid-br-radius-bg ($bg: $mystic) {
+// 	background: $mystic;
+// 	border-radius: em(15px);
+// 	margin-bottom: em(10px);
+// 	-webkit-box-shadow: 0 3px 2px -2px $daisyBush;
+//     -moz-box-shadow: 0 3px 2px -2px $daisyBush;
+//     box-shadow: 0 3px 2px -2px $daisyBush;
+// 			 @include mq ("med") {
+// 				-webkit-box-shadow: 0 3px 2px -2px $daisyBush;
+//                 -moz-box-shadow: 0 3px 2px -2px $daisyBush;
+//                 box-shadow: 0 3px 2px -2px $daisyBush;
+// 			 }
+// 			 @include mq ("lg") {
+// 				-webkit-box-shadow: 0 5px 3px -3px $daisyBush;
+// 				-moz-box-shadow: 0 5px 3px -3px $daisyBush;
+// 				 box-shadow: 0 5px 3px -3px $daisyBush;
+// 			 }
+// 			 @include mq ("x-lg") {
+// 				-webkit-box-shadow: 0 7px 4px -4px $daisyBush;
+// 				-moz-box-shadow: 0 7px 4px -4px $daisyBush;
+// 				 box-shadow: 0 7px 4px -4px $daisyBush;
+// 			 }
+// 	@content;
+
+
+// }
+
+
+
+//Flex Box
+// @mixin flexy ($disp: flex,
+// 			 $dir: null,
+// 			 $wrap: null,
+// 			 $just: null,
+// 			 $align: null) {
+//   display: $disp;
+//   flex-direction: $dir;
+//   flex-wrap: $wrap;
+//   justify-content: $just;
+//   align-items: $align;
+
+// }
+
+
+
+
+
+
+
+
+//DEBUGING 
+@mixin debug ($pix:1px, $color:null) {
+	border: solid $pix $color;
+	
+}

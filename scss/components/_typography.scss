@@ -1,0 +1,41 @@
+// ==========================================================================
+// Typography
+//==========================================================================
+body {
+	font-family: $font-family--body;
+	@include text($base__font-size, ($base__line/$base__font-size ), $color: var(--color-text));
+	
+}
+
+
+
+
+.headline--primary{
+	font-family: $font-family--primary;
+}
+.headline--secondary {
+	font-family: $font-family--secondary;
+
+}
+
+
+
+.headline--primary {
+	margin: 0;
+	@include text(em(16px), (38px/16px));
+	
+	// @include debug($japanese-laurel); //BUG:
+	
+	
+}
+
+
+
+.headline--secondary {
+	padding-left: em(5px);
+	@include text(em(15px));
+	
+ 
+	
+}
+
